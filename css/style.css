@@ -282,10 +282,6 @@ strong {
 dfn {
   font-style: italic;
 }
-h1 {
-  margin: .67em 0;
-  font-size: 2em;
-}
 mark {
   color: #000;
   background: #ff0;
@@ -477,23 +473,25 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: inherit;
+  font-family: "UniNeue";
   font-weight: 300;
-  line-height: 1.2;
+  line-height: 1;
   color: #663a2a;
-  margin: 0 0 36px;
 }
 h1,
 .h1 {
   font-size: 63px;
+  margin: 0 0 25px;
 }
 h2,
 .h2 {
   font-size: 54px;
+  margin: 0 0 25px;
 }
 h3,
 .h3 {
   font-size: 45px;
+  margin: 0 0 20px;
 }
 h4,
 .h4 {
@@ -526,6 +524,38 @@ h6,
   list-style: none;
   padding: 0;
   margin: 0;
+}
+.text-white > * {
+  color: #ffffff;
+}
+.text-lg {
+  font-size: 24px;
+}
+.text-lg p {
+  margin-bottom: 40px;
+}
+.subtitle-lg,
+.subtitle {
+  font-weight: 400;
+  font-family: "UniNeue";
+  text-transform: uppercase;
+}
+.subtitle-lg {
+  font-size: 18px;
+  line-height: 3;
+}
+.subtitle {
+  font-size: 16px;
+  line-height: 2;
+}
+.text-red {
+  color: #ed1c24;
+}
+.text-blue {
+  color: #1cbede;
+}
+.text-orange {
+  color: #f36f21;
 }
 .btn {
   font-family: "UniNeue";
@@ -605,7 +635,7 @@ h6,
 p,
 ul,
 ol {
-  margin: 0 0 40px;
+  margin: 0 0 30px;
 }
 .clearfix:after {
   content: " ";
@@ -618,6 +648,13 @@ img {
   max-width: 100%;
   display: block;
   height: auto;
+}
+.main-width {
+  max-width: 1440px;
+  margin: auto;
+}
+.top-banner {
+  padding: 113px 94px 154px;
 }
 .nain-nav {
   font-family: "UniNeue";
