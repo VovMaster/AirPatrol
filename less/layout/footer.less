@@ -1,4 +1,68 @@
 .main-footer {
 	background: #663a2a;
 	color: #c4ada5;
+	padding: 33px 44px 117px;
+	font-size: 15px;
+	font-family: "UniNeue";
+	font-weight: 300;
+	ul{
+		list-style: none;
+		padding: 0;
+		margin: 0;
+		font-size: 16px;
+		li{
+			margin-bottom: 11px;
+			
+		}
+	}
+	h6{
+		margin: 0 0 12px;
+		color: #ffffff;
+	}
+	a{
+		.transition(0.2s);
+		&:hover{
+			text-decoration: none;
+			color: #ffffff;
+		}
+	}
+}
+.socials{
+	padding-top: 25px;
+	a{
+		float: left;
+		margin-right: 6px;
+	}
+	.icon{
+		font-size: 24px;
+	}
+}
+.footer-logo{
+	margin-bottom: 18px;
+	display: block;
+	img{
+		margin: 0;
+	}
+
+}
+
+
+@media (max-width: 991px) {
+/*	.main-footer{
+		padding: 23px 34px 0px;
+	}*/
+	.footer-menu{
+		> li{
+			float: left;
+			width: 50%;
+		}
+	}
+	.copyright{
+		text-align: center;
+	}
+	.footer-logo{
+		img{
+			margin: auto;
+		}
+	}
 }

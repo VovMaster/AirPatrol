@@ -28,6 +28,18 @@
 	font-family: 'UniNeue';
 	font-weight: 400;
 	margin-top: -10px;
+	a{
+		position: relative;
+		display: inline-block;
+		span{
+			.rotate(-90deg);
+			display: block;
+			position: absolute;
+			top: 0;
+			left: 100%;
+			margin-left: 9px;
+		}
+	}
 }
 .input-button {
 	position: relative;
@@ -43,8 +55,37 @@
 		font-size: 14px;
 	}
 }
-
-
+.text-two-columns{
+	p{
+		width: 50%;
+		float: left;
+	}
+}
+.bg-container{
+	background-color: #f8f4f2;
+}
+.arguments{
+	font-family: "OpenSans";
+	font-weight: 400;
+	font-size: 16px;
+	ul{
+		list-style: none;
+		/*margin: 0 -15px;*/
+		padding: 0;
+		li{
+			float: left;
+			width: 16.66%;
+			text-align: center;
+			padding: 0 15px;
+		}
+	}
+	h5{
+		font-weight: 400;
+	}
+	img{
+		margin-bottom: 21px;
+	}
+}
 @media (max-width: 1024px) {
 	
 }
