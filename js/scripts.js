@@ -12,7 +12,12 @@ $(document).ready(function() {
 		$('.products-menu').show();
 	});
 
-
+	$('.slider').slick({
+	  dots: true,
+	  infinite: true,
+	  fade: true,
+	  speed: 500
+	});
 
 	var intervalID;
 	$('.products-menu-link').hover(
