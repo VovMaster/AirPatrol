@@ -1471,21 +1471,23 @@ img {
 .small-padding {
   padding: 0 40px;
 }
-.row60 {
-  margin-left: -60px;
-  margin-right: -60px;
-}
-.row60 > * {
-  padding-left: 60px;
-  padding-right: 60px;
-}
-.row100 {
-  margin-left: -100px;
-  margin-right: -100px;
-}
-.row100 > * {
-  padding-left: 100px;
-  padding-right: 100px;
+@media (min-width: 1450px) {
+  .row60 {
+    margin-left: -60px;
+    margin-right: -60px;
+  }
+  .row60 > * {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+  .row100 {
+    margin-left: -100px;
+    margin-right: -100px;
+  }
+  .row100 > * {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
 }
 .form-control {
   font-family: "OpenSans", sans-serif;
@@ -1526,21 +1528,113 @@ img {
   border: 0;
   background-color: transparent;
 }
+.visible-xs,
+.visible-sm,
+.visible-md,
+.visible-lg {
+  display: none;
+}
+@media (max-width: 767px) {
+  .visible-xs {
+    display: block;
+  }
+  table.visible-xs {
+    display: table;
+  }
+  tr.visible-xs {
+    display: table-row;
+  }
+  th.visible-xs,
+  td.visible-xs {
+    display: table-cell;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .visible-sm {
+    display: block;
+  }
+  table.visible-sm {
+    display: table;
+  }
+  tr.visible-sm {
+    display: table-row;
+  }
+  th.visible-sm,
+  td.visible-sm {
+    display: table-cell;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .visible-md {
+    display: block;
+  }
+  table.visible-md {
+    display: table;
+  }
+  tr.visible-md {
+    display: table-row;
+  }
+  th.visible-md,
+  td.visible-md {
+    display: table-cell;
+  }
+}
+@media (min-width: 1200px) {
+  .visible-lg {
+    display: block;
+  }
+  table.visible-lg {
+    display: table;
+  }
+  tr.visible-lg {
+    display: table-row;
+  }
+  th.visible-lg,
+  td.visible-lg {
+    display: table-cell;
+  }
+}
+@media (max-width: 767px) {
+  .hidden-xs {
+    display: none;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .hidden-sm {
+    display: none;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .hidden-md {
+    display: none;
+  }
+}
+@media (min-width: 1200px) {
+  .hidden-lg {
+    display: none;
+  }
+}
 .section-lg {
   padding-top: 113px;
   padding-bottom: 119px;
   margin-bottom: 45px;
+  background-size: cover;
+  background-position: 50% 50%;
 }
 .section-md {
   margin-bottom: 30px;
   padding-top: 36px;
   padding-bottom: 17px;
+  background-size: cover;
+  background-position: 50% 50%;
 }
 .section-sm {
   min-height: 450px;
   padding-top: 50px;
-  padding-bottom: 30px;
+  padding-bottom: 1px;
   margin-bottom: 30px;
+  background-size: cover;
+  background-position: 50% 50%;
 }
 .column-text {
   padding-top: 44px;
@@ -1612,6 +1706,141 @@ img {
 }
 .arguments img {
   margin-bottom: 21px;
+}
+@media (max-width: 1024px) {
+  .section-sm {
+    min-height: 470px;
+  }
+}
+@media (max-width: 991px) {
+  .main-width {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  .main-padding {
+    padding: 0 15px;
+  }
+}
+@media (max-width: 767px) {
+  .section-lg {
+    padding: 40px 0 4px 0;
+    margin-bottom: 16px;
+    background-position: 70% 0;
+    background-size: 1460px auto;
+  }
+  .section-lg .btn {
+    margin-top: 128px;
+  }
+  .section-lg p {
+    min-height: 72px;
+  }
+  .subtitle-lg {
+    font-size: 13px;
+    line-height: 1;
+    margin-bottom: 4px;
+  }
+  h1,
+  .h1 {
+    font-size: 32px;
+    line-height: 34px;
+    margin-bottom: 7px;
+  }
+  .text-lg {
+    font-size: 15px;
+  }
+  .btn-lg {
+    font-size: 17px;
+    padding: 5px 10px;
+  }
+  .btn-md {
+    font-size: 14px;
+    padding: 4px 7px;
+  }
+  .main-width {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .section-md {
+    padding-top: 21px;
+    padding-bottom: 19px;
+    background-position: 72% 30px;
+    margin-bottom: 16px;
+  }
+  .section-md p:last-child {
+    margin-bottom: 0;
+  }
+  h2,
+  .h2 {
+    font-size: 28px;
+    line-height: 29px;
+    margin-bottom: 15px;
+  }
+  h3,
+  .h3 {
+    font-size: 28px;
+    margin-bottom: 8px;
+    line-height: 29px;
+  }
+  .text-md p {
+    font-size: 14px;
+    line-height: 17px;
+    padding-right: 50%;
+    margin-bottom: 24px;
+  }
+  .small-padding {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .small-padding p {
+    padding-right: 50%;
+    font-size: 14px;
+    line-height: 17px;
+  }
+  .btn-sm {
+    font-size: 14px;
+    padding: 3px 7px;
+  }
+  .section-sm {
+    min-height: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 16px;
+  }
+  .section-sm p {
+    margin-bottom: 25px;
+  }
+  .section-sm p:last-child {
+    margin-bottom: 0;
+  }
+  .subtitle {
+    font-size: 13px;
+    line-height: 1;
+    margin-bottom: 4px;
+  }
+  body {
+    font-size: 14px;
+  }
+  .column-text {
+    padding-top: 0;
+    text-align: center;
+  }
+  .column-text img {
+    width: 72px;
+    margin: 23px auto 5px;
+  }
+  p,
+  ul,
+  ol {
+    margin-bottom: 13px;
+  }
+  .form-control {
+    height: 35px;
+    font-size: 14px;
+  }
+  .read-more {
+    font-size: 12px;
+    margin: 0;
+  }
 }
 .main-nav {
   font-family: "UniNeue";
@@ -1946,10 +2175,12 @@ img {
     margin-bottom: 25px;
   }
 }
-.main-footer {
+.wrap-main-footer {
   background: #663a2a;
+}
+.main-footer {
   color: #c4ada5;
-  padding: 33px 44px 117px;
+  padding: 33px 44px 50px;
   font-size: 15px;
   font-family: "UniNeue";
   font-weight: 300;
@@ -1999,14 +2230,45 @@ img {
   /*	.main-footer{
 		padding: 23px 34px 0px;
 	}*/
-  .footer-menu > li {
-    float: left;
-    width: 50%;
+  .main-footer .footer-menu {
+    margin-bottom: 30px;
   }
   .copyright {
     text-align: center;
   }
   .footer-logo img {
     margin: auto;
+  }
+  .socials a {
+    display: inline-block;
+    float: none;
+  }
+  .socials {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 767px) {
+  .main-footer {
+    padding: 26px 15px 50px;
+  }
+  .main-footer .footer-menu {
+    margin-left: -10px;
+    margin-right: -6px;
+    overflow: hidden;
+    font-size: 13px;
+  }
+  .footer-menu li {
+    float: left;
+    padding: 0 10px 8px;
+    width: 50%;
+  }
+  .main-footer h6 {
+    font-size: 13px;
+    margin-bottom: 17px;
+  }
+  .socials {
+    margin-bottom: 30px;
+    padding-top: 0;
   }
 }
