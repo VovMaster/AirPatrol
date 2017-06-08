@@ -7,384 +7,552 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
+<div class="main-wrap">
+	<div class="wrapper">
+		<header class="main-header">
+			<div class="main-header-width">
+				<a href="" class="logo">
+					<img src="images/logo.png" alt="">
+				</a>
+				<div class="menu-button">
+					<i></i>
+					<i></i>
+					<i></i>
+				</div>
+				<nav class="main-nav">
+					<ul>
+						<li class="products-menu-link">
+							<a href="">Products</a>
+						</li>
+						<li>
+							<a href="">Support</a>
+						</li>
+						<li>
+							<a href="">Blog</a>
+						</li>
+					</ul>
+				</nav>
+				<div class="part-right-header">
+					<div class="dropdown-language">
+						<div class="dropdown-language-title">ENGLISH</div>
+						<div class="dropdown-language-content">
+							<ul>
+								<li data-language="ENGLISH">ENGLISH</li>
+								<li data-language="EESTI">EESTI</li>
+								<li data-language="SVENSKA">SVENSKA</li>
+								<li data-language="NORSK">NORSK</li>
+								<li data-language="SUOMI">SUOMI</li>
+								<li data-language="РУССКИЙ">РУССКИЙ</li>
+							</ul>
+						</div>
+					</div>
+					<a href="" class="sign-in-link"> <i class="icon icon-shield"></i> <span>SIGN IN</span></a>
+					<a href="" class="cart-link"> <i class="icon-cart"></i> </a>
+				</div>
 
-<div class="wrapper">
-	<header class="main-header">
-		<div class="main-header-width">
 
-			<a href="" class="logo">
-				<img src="images/logo.png" alt="">
-			</a>
-			<nav class="main-nav">
-				<ul>
-					<li class="current">
-						<a href="">Products</a>
-					</li>
-					<li>
-						<a href="">Support</a>
-					</li>
-					<li>
-						<a href="">Blog</a>
-					</li>
-				</ul>
-			</nav>
-			<div class="part-right-header">
-				<div class="dropdown-language">
-					<div class="dropdown-language-title">ENGLISH</div>
-					<div class="dropdown-language-content">
-						<ul>
-							<li data-language="ENGLISH">ENGLISH</li>
-							<li data-language="EESTI">EESTI</li>
-							<li data-language="SVENSKA">SVENSKA</li>
-							<li data-language="NORSK">NORSK</li>
-							<li data-language="SUOMI">SUOMI</li>
-							<li data-language="РУССКИЙ">РУССКИЙ</li>
+			</div>
+			<div class="products-menu">
+				<div class="products-width">
+					<div class="row">
+						<ul class="col-sm-7 product-menu-item">
+							<li class="col-sm-3">
+								<a href="">
+									<div class="img-product-menu">
+										<img src="images/SmartHeat.jpg">
+									</div>
+									SmartHeat
+								</a>
+							</li>
+							<li class="col-sm-3">
+								<a href="">
+									<div class="img-product-menu">
+										<img src="images/Nordic-GSM.jpg">
+									</div>
+									Nordic GSM
+								</a>
+							</li>
+							<li class="col-sm-3">
+								<a href="">
+									<div class="img-product-menu">
+										<img src="images/WiFi.jpg">
+									</div>
+									WiFi
+								</a>
+							</li>
+							<li class="col-sm-3">
+								<a href="">
+									<div class="img-product-menu">
+										<img src="images/SmartSocket.jpg">
+									</div>
+									SmartSocket
+								</a>
+							</li>
 						</ul>
+						<div class="col-sm-5">
+							<div class="highlight">
+								<p>HIGHLIGHT</p>
+								<ul class="list-style-color">
+									<li><a href="">Smart underfloor heating control</a></li>
+									<li><a href="">Heat pump / AC smart controller</a></li>
+									<li><a href="">Energy saving solution</a></li>
+								</ul>
+							</div>
+						</div>
 					</div>
 				</div>
-				<a href="" class="sign-in-link"> <i class="icon icon-shield"></i> <span>SIGN IN</span></a>
-				<a href="" class="cart-link"> <i class="icon-cart"></i> </a>
+			</div>
+		</header>
+		<div class="menu-mobile">
+			<div class="menu-mobile-top">
+				<div class="row">
+					<div class="col-xs-6">
+						<a href="#language-mobile">English</a>
+					</div>
+					<div class="col-xs-6">
+						<a href="#currency-mobile">Eur</a>
+					</div>
+				</div>
+			</div>
+			<div class="menu-mobile-dropdown" id="language-mobile" style="display: none;">
+				<div class="row">
+					<div class="col-xs-6">
+						<a href="" class="active">English</a>
+						<a href="">Eesti</a>
+						<a href="">svenska</a>
+						<a href="">NORSK</a>
+						<a href="">SUOMI</a>
+						<a href="">русский</a>
+					</div>
+					<div class="col-xs-6">
+						<a href="" class="back-menu-js">Back</a>
+					</div>
+				</div>
+			</div>
+			<div class="menu-mobile-dropdown" id="currency-mobile" style="display: none;">
+				<div class="row">
+					<div class="col-xs-6">
+						<a href="" class="back-menu-js">Back</a>
+					</div>
+					<div class="col-xs-6">
+						<a href="" class="active">Eur</a>
+						<a href="">USD</a>
+						<a href="">GBP</a>
+						<a href="">RUR</a>
+						<a href="">CNY</a>
+					</div>
+				</div>
 			</div>
 
-		</div>
-	</header>
 
-	<div class="main-width section-lg text-lg" style="background-image: url(images/image-3.jpg);">
-		<div class="main-padding">
-			<div class="row row60">
-				<div class="col-sm-6">
+			<div class="menu-mobile-content">
+				
+				<h6>PRODUCTS</h6>
+				<div class="row">
+					<div class="col-xs-6 menu-mobile-link">
+						<a href="">SmartHeat</a>
+					</div>
+					<div class="col-xs-6 menu-mobile-link">
+						<a href="">WiFi</a>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-6 menu-mobile-link">
+						<a href="">Nordic GSM</a>
+					</div>
+					<div class="col-xs-6 menu-mobile-link">
+						<a href="">SmartSocket</a>
+					</div>
+				</div>
+
+				<div class="line-mobile"></div>
+
+				<h6>SMARTPHONE APPS</h6>
+				<div class="row">
+					<div class="col-xs-6 menu-mobile-link">
+						<a href="">SmartHeat</a>
+					</div>
+					<div class="col-xs-6 menu-mobile-link">
+						<a href="">AirPatrol</a>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-6 menu-mobile-link">
+						<a href="">Combi Control</a>
+					</div>
+				</div>
+
+				<div class="line-mobile"></div>
+
+				<h6>AIRPATROL</h6>
+
+				<div class="menu-mobile-link"><a href="">Support</a></div>
+				<div class="menu-mobile-link"><a href="">Blog</a></div>
+				<div class="menu-mobile-link"><a href="">Quality &amp; history</a></div>
+				<div class="menu-mobile-link"><a href="">Contact us</a></div>
+
+			</div>
+		</div>
+		<div class="second-menu">
+			<div class="main-width">
+				<div class="hidden-xs">
+					<p>SMARTHEAT</p>
+					<i class="icon-right"></i>
+					<ul>
+						<li><a href="">Benefits</a></li>
+						<li><a href="">How it works</a></li>
+						<li class="current"><a href="">Starter Pack</a></li>
+						<li><a href="">RoomUnit</a></li>
+						<li><a href="">ControlUnit</a></li>
+						<li><a href="">App</a></li>
+						<li><a href="">Demo</a></li>
+					</ul>
+				</div>
+				<select class="form-control visible-xs">
+					<option>Benefits</option>
+					<option>How it works</option>
+					<option selected="">Starter Pack</option>
+					<option>RoomUnit</option>
+					<option>ControlUnit</option>
+					<option>App</option>
+					<option>Demo</option>
+				</select>
+			</div>
+		</div>
+
+
+		<div class="main-width section-lg2 text-md" style="background-image: url(images/image-3.jpg);">
+			<div class="row row0">
+				<div class="col-sm-4">
 					<h1 class="h2">Smartest start to heating smart</h1>
 					<p>All that’s needed to make any water based underfloor heating system the smartest it can be is contained in SmartHeat Starter Pack.</p>
 					<p class="read-more"><a href="">SEE PRODUCT DETAILS BELOW <span>&#171</span></a></p>
 				</div>
 			</div>
 		</div>
-	</div>
-	<div class="main-width">
-		<div class="section-md bg-container">
-			<div class="main-padding">
-				<div class="row">
-					<div class="col-sm-6">
-						<img src="images/starter-pack.png" alt="">
-					</div>
-					<div class="col-sm-6">
-						<h4 class="subtitle-lg text-red">WHAT’S IN THE PACK</h4>
-						<h3>ControlUnit + 3 RoomUnits, easy install as standard</h3>
-						<div class="text-two-columns">
-							<p><b>All-in-one smart controller</b>ControlUnit connects to any water based underfloor heating system’s manifold and allows you to set individual temperatures in up to 10 rooms via SmartHeat app while saving up to 30% on energy bills. 
-							But that’s just the start...</p>
-							<p><b>Smart wireless thermostats</b>Starter Pack has 2 regular RoomUnits and 1 with infrared floor thermostat. These are plug &amp; play devices with intuitive control that can be set up on most walls within a minute after unboxing. Pairing with takes just couple of clicks. </p>
+		<div class="main-width">
+			<div class="section-md section-md2 bg-container">
+				<div class="main-padding">
+					<div class="row">
+						<div class="col-sm-6">
+							<img src="images/starter-pack.png" class="section-md-img" alt="">
 						</div>
-						<p><a href="" class="btn btn-sm btn-red">Buy starter pack  – € 1195</a></p>
+						<div class="col-sm-6 text-sm">
+							<h4 class="subtitle text-red">WHAT’S IN THE PACK</h4>
+							<h3>ControlUnit + 3 RoomUnits, easy install as standard</h3>
+							<div class="row row23">
+								<div class="col-sm-6">
+									<p><b>All-in-one smart controller</b><br>ControlUnit connects to any water based underfloor heating system’s manifold and allows you to set individual temperatures in up to 10 rooms via SmartHeat app while saving up to 30% on energy bills. 
+								But that’s just the start...</p>
+								</div>
+								<div class="col-sm-6">
+									<p><b>Smart wireless thermostats</b><br>Starter Pack has 2 regular RoomUnits and 1 with infrared floor thermostat. These are plug &amp; play devices with intuitive control that can be set up on most walls within a minute after unboxing. Pairing with takes just couple of clicks. </p>
+								</div>
+							</div>
+							<p><a href="" class="btn btn-sm btn-red">Buy starter pack  – € 1195</a></p>
+						</div>
 					</div>
 				</div>
 			</div>
-		</div>
 
-		<section class="arguments text-center">
-			<div class="text-red">WHY AIRPATROL SMARTHEAT</div>
-			<ul class="clearfix">
-				<li>
-					<img src="images/controls.png" alt="">
-					<h5>Controls up to 10 rooms individually</h5>
-					<p>AirPatrol SmartHeat can manage up to 10 different heating schedules at once.</p>
-				</li>
-				<li>
-					<img src="images/fits-for.png" alt="">
-					<h5>Fits any water based underfloor heating</h5>
-					<p>ControlUnit can control either 230V or 24V manifold actuators.</p>
-				</li>
-				<li>
-					<img src="images/device.png" alt="">
-					<h5>Control and overview everywhere</h5>
-					<p>SmartHeat mobile and web app gives you control wherever you are.</p>
-				</li>
-				<li>
-					<img src="images/save.png" alt="">
-					<h5>Save up to 25% on your home heating</h5>
-					<p>SmartHeat will find the most optimal way of heating your home.</p>
-				</li>
-				<li>
-					<img src="images/time.png" alt="">
-					<h5>Schedules and timers for perfect timing</h5>
-					<p>Specific heating schedules help provide top comfort and savings.</p>
-				</li>
-				<li>
-					<img src="images/guards.png" alt="">
-					<h5>Guards your heating system and home</h5>
-					<p>Valve guard, antifreeze function and notifications provide ease of mind.</p>
-				</li>
-			</ul>
-		</section>
-		<div class="section-md" style="background-image: url(images/image-4.jpg);">
-			<div class="main-padding">
-				<div class="row">
-					<div class="col-sm-8">
-						<h4 class="subtitle-lg text-red">SMARTHEAT ALL-IN-ONE CONTROL UNIT</h4>
-						<h3>Wiring center &amp; gateway with relays, temperature sensors and more</h3>
-						<p>
-							<b>Controls up to 10 zones</b>
-							Once connected to underfloor heating manifold, SmartHeat ControlUnit will then manage heating in the most economical way to create the desired temperature in each room individually.
-						</p>
-						<p>
-							<b>Coverns any electrical device</b>
-							ControlUnit has 3 relay connections that can be set to turn on and off any electrical device. Allowing ControlUnit manage your electrical boiler or heating circulation pump can make a big positive impact on your energy savings.
-						</p>
-						<p>
-							<b>Measures all temperatures</b>
-							ControlUnit can monitor up to 6 temperature readings + the outside temperature to create the most comfortable indoor temperature.
-						</p>
-						<p>
-							<b>Full overview for maximum energy savings</b>
-							Up to 3 M-Bus heating and electricity meters can be connected to the ControlUnit to give you the full overview of energy usage to help minimize spendings.
-						</p>
-						<p class="read-more"><a href="">SEE STARTER PACK CONTENTS</a></p>
+			<section class="arguments text-center">
+				<h4 class="text-red">WHY AIRPATROL SMARTHEAT</h4>
+				<ul class="clearfix">
+					<li>
+						<img src="images/controls.png" alt="">
+						<h5>Controls up to 10 rooms individually</h5>
+						<p>AirPatrol SmartHeat can manage up to 10 different heating schedules at once.</p>
+					</li>
+					<li>
+						<img src="images/fits-for.png" alt="">
+						<h5>Fits any water based underfloor heating</h5>
+						<p>ControlUnit can control either 230V or 24V manifold actuators.</p>
+					</li>
+					<li>
+						<img src="images/device.png" alt="">
+						<h5>Control and overview everywhere</h5>
+						<p>SmartHeat mobile and web app gives you control wherever you are.</p>
+					</li>
+					<li>
+						<img src="images/save.png" alt="">
+						<h5>Save up to 25% on your home heating</h5>
+						<p>SmartHeat will find the most optimal way of heating your home.</p>
+					</li>
+					<li>
+						<img src="images/time.png" alt="">
+						<h5>Schedules and timers for perfect timing</h5>
+						<p>Specific heating schedules help provide top comfort and savings.</p>
+					</li>
+					<li>
+						<img src="images/guards.png" alt="">
+						<h5>Guards your heating system and home</h5>
+						<p>Valve guard, antifreeze function and notifications provide ease of mind.</p>
+					</li>
+				</ul>
+			</section>
+			<div class="section-md section-md2 bg-container section-img-wrap" style="background-image: url(images/image-4.jpg);">
+				<div class="main-padding">
+					<div class="section-img-mobile">
+						<img src="images/image-4-mobile.jpg">
+						<div class="section-img-mobile-bg"><i></i><i></i></div>
+					</div>
+					<div class="row">
+						<div class="col-md-8 col-sm-12 text-sm">
+							<h4 class="subtitle-lg text-red">SMARTHEAT ALL-IN-ONE CONTROL UNIT</h4>
+							<h3>Wiring center &amp; gateway with relays, temperature sensors and more</h3>
+							<p>
+								<b>Controls up to 10 zones</b> <br>
+								Once connected to underfloor heating manifold, SmartHeat ControlUnit will then manage heating in the most economical way to create the desired temperature in each room individually.
+							</p>
+							<p>
+								<b>Coverns any electrical device</b> <br>
+								ControlUnit has 3 relay connections that can be set to turn on and off any electrical device. Allowing ControlUnit manage your electrical boiler or heating circulation pump can make a big positive impact on your energy savings.
+							</p>
+							<p>
+								<b>Measures all temperatures</b> <br>
+								ControlUnit can monitor up to 6 temperature readings + the outside temperature to create the most comfortable indoor temperature.
+							</p>
+							<p>
+								<b>Full overview for maximum energy savings</b> <br>
+								Up to 3 M-Bus heating and electricity meters can be connected to the ControlUnit to give you the full overview of energy usage to help minimize spendings.
+							</p>
+							<p class="read-more"><a href="">SEE STARTER PACK CONTENTS</a></p>
+						</div>
 					</div>
 				</div>
 			</div>
-		</div>
-		<div class="section-md" style="background-image: url(images/image-5.jpg);">
-			<div class="main-padding">
-				<div class="row">
-					<div class="col-sm-8 col-sm-push-4">
-						<h4 class="subtitle-lg text-red">Smartheat wireless thermostats</h4>
-						<h3>2 regular RoomUnits + 1 RoomUnit with infrared floor sensor</h3>
-						<p>
-							RoomUnit thermostat with infrared floor sensor makes sure that your bathroom floor is set to the ideal and that the more demanding floor surfaces are kept safe. The regular wireless thermostat takes care of every other room.
-						</p>
-						<p>
-							<b>Plug and play</b>
-							SmartHeat RoomUnit wireless thermostats come with all included for installation and they can be paired with ControlUnit with a single click on both devices.
-						</p>
-						<p>
-							<b>Fantastically easy to use</b>
-							Clear back-lit display makes checking the readout easy on the eyes. Changing the settings is intuitive and can also be done on a smartphone or web application.
-						</p>
-						<p class="read-more"><a href="">SEE STARTER PACK CONTENTS</a></p>
+			<div class="section-md section-md2 bg-container section-img-wrap" style="background-image: url(images/image-5.jpg);">
+				<div class="main-padding">
+					<div class="section-img-mobile">
+						<img src="images/image-5-mobile.jpg">
+						<div class="section-img-mobile-bg"><i></i><i></i></div>
+					</div>
+					<div class="row">
+						<div class="col-md-8 col-md-push-4 col-sm-12">
+							<h4 class="subtitle-lg text-red">Smartheat wireless thermostats</h4>
+							<h3>2 regular RoomUnits + 1 RoomUnit with infrared floor sensor</h3>
+							<p>
+								RoomUnit thermostat with infrared floor sensor makes sure that your bathroom floor is set to the ideal and that the more demanding floor surfaces are kept safe. The regular wireless thermostat takes care of every other room.
+							</p>
+							<p>
+								<b>Plug and play</b> <br>
+								SmartHeat RoomUnit wireless thermostats come with all included for installation and they can be paired with ControlUnit with a single click on both devices.
+							</p>
+							<p>
+								<b>Fantastically easy to use</b> <br>
+								Clear back-lit display makes checking the readout easy on the eyes. Changing the settings is intuitive and can also be done on a smartphone or web application.
+							</p>
+							<p class="read-more"><a href="">SEE STARTER PACK CONTENTS</a></p>
+						</div>
 					</div>
 				</div>
 			</div>
-		</div>
-		<section class="section-md">
+
 			<div class="row">
 				<div class="col-sm-6">
-					<div class="bg-container">
-						<h4 class="subtitle-lg text-red">Smartheat mobile and web app</h4>
+					<div class="bg-container xs-padding section-xs">
+						<h4 class="subtitle text-red">Smartheat mobile and web app</h4>
 						<h3>Control and overview everywhere</h3>
-						<div class="row">
-							<div class="col-sm-8">FUNCTION</div>
-							<div class="col-sm-2">MOBILE APP</div>
-							<div class="col-sm-2">WEB APP</div>
-						</div>
-						<div class="row">
-							<div class="col-sm-8">Measure and set room temperatures</div>
-							<div class="col-sm-2">+</div>
-							<div class="col-sm-2">+</div>
-						</div>
-						<div class="row">
-							<div class="col-sm-8">Measure floor temperatures *</div>
-							<div class="col-sm-2">+</div>
-							<div class="col-sm-2">+</div>
-						</div>
-						<div class="row">
-							<div class="col-sm-8">See floor temperature limits *</div>
-							<div class="col-sm-2">+</div>
-							<div class="col-sm-2">+</div>
-						</div>
-						<div class="row">
-							<div class="col-sm-8">See battery levels, wireless signal strength</div>
-							<div class="col-sm-2">+</div>
-							<div class="col-sm-2">+</div>
-						</div>
-						<div class="row">
-							<div class="col-sm-8">See outside temperature **</div>
-							<div class="col-sm-2">+</div>
-							<div class="col-sm-2">+</div>
-						</div>
-						<div class="row">
-							<div class="col-sm-8">See heating modes for each room (MIN, Timer, ECO)</div>
-							<div class="col-sm-2">+</div>
-							<div class="col-sm-2">+</div>
-						</div>
-						<div class="row">
-							<div class="col-sm-8">See if heating is active or not</div>
-							<div class="col-sm-2">+</div>
-							<div class="col-sm-2">+</div>
-						</div>
-						<div class="row">
-							<div class="col-sm-8">Activate MIN mode by turning setpoint to 5 °C</div>
-							<div class="col-sm-2">+</div>
-							<div class="col-sm-2">+</div>
-						</div>
-						<div class="row">
-							<div class="col-sm-8">Measure and see air humidity</div>
-							<div class="col-sm-2"></div>
-							<div class="col-sm-2">+</div>
-						</div>
-						<div class="row">
-							<div class="col-sm-8">Set timers</div>
-							<div class="col-sm-2">+</div>
-							<div class="col-sm-2">+</div>
-						</div>
-						<div class="row">
-							<div class="col-sm-8">Set notifications and change triggers</div>
-							<div class="col-sm-2">+</div>
-							<div class="col-sm-2">+</div>
-						</div>
-						<div class="row">
-							<div class="col-sm-8">See notifications timeline</div>
-							<div class="col-sm-2"></div>
-							<div class="col-sm-2">+</div>
-						</div>
-						<div class="row">
-							<div class="col-sm-8">Manage users, rooms, system parameters, relays etc.</div>
-							<div class="col-sm-2">+</div>
-							<div class="col-sm-2">+</div>
+						<div class="text-sm table-content">
+							<div class="row row5 table-content-top">
+								<div class="col-xs-8">FUNCTION</div>
+								<div class="col-xs-2 text-center">MOBILE <span class="hidden-xs">APP</span></div>
+								<div class="col-xs-2 text-center">WEB <span class="hidden-xs">APP</span></div>
+							</div>
+							<div class="row row5">
+								<div class="col-xs-8">Measure and set room temperatures</div>
+								<div class="col-xs-2 text-center">+</div>
+								<div class="col-xs-2 text-center">+</div>
+							</div>
+							<div class="row row5">
+								<div class="col-xs-8">Measure floor temperatures *</div>
+								<div class="col-xs-2 text-center">+</div>
+								<div class="col-xs-2 text-center">+</div>
+							</div>
+							<div class="row row5">
+								<div class="col-xs-8">See floor temperature limits *</div>
+								<div class="col-xs-2 text-center">+</div>
+								<div class="col-xs-2 text-center">+</div>
+							</div>
+							<div class="row row5">
+								<div class="col-xs-8">See battery levels, wireless signal strength</div>
+								<div class="col-xs-2 text-center">+</div>
+								<div class="col-xs-2 text-center">+</div>
+							</div>
+							<div class="row row5">
+								<div class="col-xs-8">See outside temperature **</div>
+								<div class="col-xs-2 text-center">+</div>
+								<div class="col-xs-2 text-center">+</div>
+							</div>
+							<div class="row row5">
+								<div class="col-xs-8">See heating modes for each room (MIN, Timer, ECO)</div>
+								<div class="col-xs-2 text-center">+</div>
+								<div class="col-xs-2 text-center">+</div>
+							</div>
+							<div class="row row5">
+								<div class="col-xs-8">See if heating is active or not</div>
+								<div class="col-xs-2 text-center">+</div>
+								<div class="col-xs-2 text-center">+</div>
+							</div>
+							<div class="row row5">
+								<div class="col-xs-8">Activate MIN mode by turning setpoint to 5 °C</div>
+								<div class="col-xs-2 text-center">+</div>
+								<div class="col-xs-2 text-center">+</div>
+							</div>
+							<div class="row row5">
+								<div class="col-xs-8">Measure and see air humidity</div>
+								<div class="col-xs-2 text-center"></div>
+								<div class="col-xs-2 text-center">+</div>
+							</div>
+							<div class="row row5">
+								<div class="col-xs-8">Set timers</div>
+								<div class="col-xs-2 text-center">+</div>
+								<div class="col-xs-2 text-center">+</div>
+							</div>
+							<div class="row row5">
+								<div class="col-xs-8">Set notifications and change triggers</div>
+								<div class="col-xs-2 text-center">+</div>
+								<div class="col-xs-2 text-center">+</div>
+							</div>
+							<div class="row row5">
+								<div class="col-xs-8">See notifications timeline</div>
+								<div class="col-xs-2 text-center"></div>
+								<div class="col-xs-2 text-center">+</div>
+							</div>
+							<div class="row row5">
+								<div class="col-xs-8">Manage users, rooms, system parameters, relays etc.</div>
+								<div class="col-xs-2 text-center">+</div>
+								<div class="col-xs-2 text-center">+</div>
+							</div>
 						</div>
 						<p><a href="" class="btn btn-sm btn-red">Try web app demo</a></p>
-						<p>* Requires RoomUnit with IR floor sensor  |  ** Temperature sensor must be connected to ControlUnit</p>
+						<p class="text-xs">* Requires RoomUnit with IR floor sensor  |  ** Temperature sensor must be connected to ControlUnit</p>
 					</div>
 				</div>
-				<div class="col-sm-6 bg-container">
-					<h4 class="subtitle-lg text-red">Starterpack contents</h4>
-					<h3>All essentials for SmartHeat system are included</h3>
-					<p>SmartHeat Starter Pack includes 3 devices:1 ControlUnit + 2 RoomUnits + 1 RoomUnit with infrared floor sensor</p>
-					<div class="row">
-						<div class="col-sm-6">CONTROLUNIT INCLUDES</div>
-						<div class="col-sm-6">EACH ROOMUNIT INCLUDES</div>
+				<div class="col-sm-6">
+					<div class="bg-container xs-padding section-xs">
+						<h4 class="subtitle text-red">Starterpack contents</h4>
+						<h3>All essentials for SmartHeat system are included</h3>
+						<p class="text-second">SmartHeat Starter Pack includes 3 devices:1 ControlUnit + 2 RoomUnits + 1 RoomUnit with infrared floor sensor</p>
+						<div class="text-sm table-content table-content2">
+							<div class="row table-content-top">
+								<div class="col-xs-6">CONTROLUNIT INCLUDES</div>
+								<div class="col-xs-6">EACH ROOMUNIT INCLUDES</div>
+							</div>
+							<div class="row">
+								<div class="col-xs-6">ControlUnit</div>
+								<div class="col-xs-6">RoomUnit</div>
+							</div>
+							<div class="row">
+								<div class="col-xs-6">1x 5m temperature sensor</div>
+								<div class="col-xs-6">3x AAA batteries</div>
+							</div>
+							<div class="row">
+								<div class="col-xs-6">3x 3m temperature sensor</div>
+								<div class="col-xs-6">4x screws &amp; wall plugs</div>
+							</div>
+							<div class="row">
+								<div class="col-xs-6">Bridge cable for actuator power</div>
+								<div class="col-xs-6">Double-sided tape</div>
+							</div>
+							<div class="row">
+								<div class="col-xs-6">Power cable</div>
+								<div class="col-xs-6">User manual</div>
+							</div>
+							<div class="row">
+								<div class="col-xs-6">8x cable fixes</div>
+								<div class="col-xs-6"></div>
+							</div>
+							<div class="row">
+								<div class="col-xs-6">4x screws &amp; wall plugs</div>
+								<div class="col-xs-6"></div>
+							</div>
+							<div class="row">
+								<div class="col-xs-6">Sheet of cable marking labels</div>
+								<div class="col-xs-6"></div>
+							</div>
+							<div class="row">
+								<div class="col-xs-6">User manual</div>
+								<div class="col-xs-6"></div>
+							</div>
+						</div>
+						<p><a href="" class="btn btn-sm btn-red">Buy starter pack  – € 1195</a></p>
+						<p class="text-xs">Additional RoomUnits can be purchased separately.</p>
 					</div>
-					<div class="row">
-						<div class="col-sm-6">ControlUnit</div>
-						<div class="col-sm-6">RoomUnit</div>
-					</div>
-					<div class="row">
-						<div class="col-sm-6">1x 5m temperature sensor</div>
-						<div class="col-sm-6">3x AAA batteries</div>
-					</div>
-					<div class="row">
-						<div class="col-sm-6">3x 3m temperature sensor</div>
-						<div class="col-sm-6">4x screws &amp; wall plugs</div>
-					</div>
-					<div class="row">
-						<div class="col-sm-6">Bridge cable for actuator power</div>
-						<div class="col-sm-6">Double-sided tape</div>
-					</div>
-					<div class="row">
-						<div class="col-sm-6">Power cable</div>
-						<div class="col-sm-6">User manual</div>
-					</div>
-					<div class="row">
-						<div class="col-sm-6">8x cable fixes</div>
-						<div class="col-sm-6"></div>
-					</div>
-					<div class="row">
-						<div class="col-sm-6">4x screws &amp; wall plugs</div>
-						<div class="col-sm-6"></div>
-					</div>
-					<div class="row">
-						<div class="col-sm-6">Sheet of cable marking labels</div>
-						<div class="col-sm-6"></div>
-					</div>
-					<div class="row">
-						<div class="col-sm-6">User manual</div>
-						<div class="col-sm-6"></div>
-					</div>
-					<p><a href="" class="btn btn-sm btn-red">Buy starter pack  – € 1195</a></p>
-					<p>Additional RoomUnits can be purchased separately.</p>
 				</div>
 			</div>
-		</section>
+
+		</div>
 	</div>
 </div>
 
-<footer class="main-footer main-width">
-	<div class="row">
-		<div class="col-md-9 col-md-push-3">
-			<div class="row">
-				<div class="col-md-4">
-					<h6>PRODUCTS</h6>
-					<ul class="footer-menu">
-						<li>
-							<ul>
-								<li><a href="">SmartHeat Starter Pack</a></li>
-								<li><a href="">SmartHeat RoomUnit</a></li>
-								<li><a href="">SmartHeat ControlUnit</a></li>
-								<li><a href="">Nordic GSM</a></li>
-							</ul>
-						</li>
-						<li>
-							<ul>
-								<li><a href="">Nordic for Daikin GSM</a></li>
-								<li><a href="">Combi Control</a></li>
-								<li><a href="">WiFi</a></li>
-								<li><a href="">SmartSocket</a></li>
-							</ul>
-						</li>
-					</ul>
-				</div>
-				<div class="col-md-4">
-					<h6>AIRPATROL</h6>
-					<ul class="footer-menu">
-						<li>
-							<ul>
-								<li><a href="">Contact us</a></li>
-								<li><a href="">Blog</a></li>
-								<li><a href="">Compare products</a></li>
-							</ul>
-						</li>
-						<li>
-							<ul>
-								<li><a href="">Quality &amp; history</a></li>
-								<li><a href="">Support</a></li>
-								<li><a href="">Privacy policy</a></li>
-							</ul>
-						</li>
-					</ul>
-					<div class="socials clearfix hidden-md">
-						<a href=""><i class="icon icon-facebook"></i></a>
-						<a href=""><i class="icon icon-instagram"></i></a>
-						<a href=""><i class="icon icon-youtube"></i></a>
-						<a href=""><i class="icon icon-twitter"></i></a>
-						<a href=""><i class="icon icon-pinterest"></i></a>
+<div class="wrap-main-footer">
+	<footer class="main-footer main-width">
+		<div class="row">
+			<div class="col-md-9 col-md-push-3">
+				<div class="row">
+					<div class="col-sm-4">
+						<h6>PRODUCTS</h6>
+						<ul class="footer-menu">
+							<li><a href="">SmartHeat Starter Pack</a></li>
+							<li><a href="">SmartHeat RoomUnit</a></li>
+							<li><a href="">SmartHeat ControlUnit</a></li>
+							<li><a href="">Nordic GSM</a></li>
+							<li><a href="">Nordic for Daikin GSM</a></li>
+							<li><a href="">Combi Control</a></li>
+							<li><a href="">WiFi</a></li>
+							<li><a href="">SmartSocket</a></li>
+						</ul>
 					</div>
-				</div>
-				<div class="col-md-4">
-					<h6>APPLICATIONS</h6>
-					<ul class="footer-menu">
-						<li>
-							<ul>
-								<li><a href="">SmartHeat</a></li>
-								<li><a href="">AirPatrol</a></li>
-							</ul>
-						</li>
-						<li>
-							<ul>
-								<li><a href="">Combi Control</a></li>
-								<li><a href="">SmartHeat web app demo</a></li>
-							</ul>
-						</li>
-					</ul>
-					<div class="socials clearfix show-md visible-md">
-						<a href=""><i class="icon icon-facebook"></i></a>
-						<a href=""><i class="icon icon-instagram"></i></a>
-						<a href=""><i class="icon icon-youtube"></i></a>
-						<a href=""><i class="icon icon-twitter"></i></a>
-						<a href=""><i class="icon icon-pinterest"></i></a>
+					<div class="col-sm-4">
+						<h6>AIRPATROL</h6>
+						<ul class="footer-menu">
+							<li><a href="">Contact us</a></li>
+							<li><a href="">Blog</a></li>
+							<li><a href="">Compare products</a></li>
+							<li><a href="">Quality &amp; history</a></li>
+							<li><a href="">Support</a></li>
+							<li><a href="">Privacy policy</a></li>
+						</ul>
+						<div class="socials clearfix hidden-md hidden-sm hidden-xs">
+							<a href=""><i class="icon icon-facebook"></i></a>
+							<a href=""><i class="icon icon-instagram"></i></a>
+							<a href=""><i class="icon icon-youtube"></i></a>
+							<a href=""><i class="icon icon-twitter"></i></a>
+							<a href=""><i class="icon icon-pinterest"></i></a>
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<h6>APPLICATIONS</h6>
+						<ul class="footer-menu">
+							<li><a href="">SmartHeat</a></li>
+							<li><a href="">AirPatrol</a></li>
+							<li><a href="">Combi Control</a></li>
+							<li><a href="">SmartHeat web app demo</a></li>
+						</ul>
+						<div class="socials clearfix visible-md visible-sm visible-xs ">
+							<a href=""><i class="icon icon-facebook"></i></a>
+							<a href=""><i class="icon icon-instagram"></i></a>
+							<a href=""><i class="icon icon-youtube"></i></a>
+							<a href=""><i class="icon icon-twitter"></i></a>
+							<a href=""><i class="icon icon-pinterest"></i></a>
+						</div>
 					</div>
 				</div>
 			</div>
+			<div class="col-md-3 col-md-pull-9">
+				<a href="" class="footer-logo">
+					<img src="images/footer-logo.png" alt="">
+				</a>
+				<p class="copyright">
+					All content copyright © 2017<br>
+					Airpatrol and AirPatrol logo are registered trademarks. All other trademarks are the property of their respective owners
+				</p>
+			</div>
 		</div>
-		<div class="col-md-3 col-md-pull-9">
-			<a href="" class="footer-logo">
-				<img src="images/footer-logo.png" alt="">
-			</a>
-			<p class="copyright">
-				All content copyright © 2017<br>
-				Airpatrol and AirPatrol logo are registered trademarks. All other trademarks are the property of their respective owners
-			</p>
-		</div>
-	</div>
-</footer>
+	</footer>
+</div>
+
 
 	<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
 	<script type="text/javascript" src="js/scripts.js"></script>

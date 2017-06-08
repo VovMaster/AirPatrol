@@ -372,6 +372,22 @@ h6, .h6{
   }
   
 }
+.text-sm{
+  font-size: 16px;
+  font-weight: 400;
+  p{
+    line-height: auto;
+    margin-bottom: 19px;
+  }
+  
+}
+.text-xs {
+  font-size: 13px;
+}
+.text-second {
+  font-weight: 400;
+  font-family: "UniNeue";
+}
 .subtitle-lg, .subtitle{
   
   font-weight: 400;
@@ -381,7 +397,7 @@ h6, .h6{
 }
 .subtitle-lg{
   font-size: 18px;
-  line-height: 3;
+  line-height: 2;
   margin: 0;
 }
 .subtitle{
@@ -438,18 +454,6 @@ h6, .h6{
   font-size: 22px;
   padding: 8px 13px;
 }
-.btn-blue{
-  background-color: rgba(28, 190, 222, 1.0);
-}
-.btn-red{
-  background-color: rgba(237, 28, 36, 1.0);
-}
-.btn-green{
-  background-color: rgba(169, 202, 65, 1.0);
-}
-.btn-orange{
-  background-color: rgba(243, 111, 33, 1.0);
-}
 .btn:focus,
 .btn:active:focus,
 .btn.active:focus,
@@ -472,6 +476,23 @@ h6, .h6{
   outline: 0;
   background-color: #014341;
 }
+
+.btn-blue{
+  background-color: rgba(28, 190, 222, 1.0);
+}
+.btn-red{
+  background-color: rgba(237, 28, 36, 1.0);
+  &:hover, &:focus {
+    background: #d6171e;
+  }
+}
+.btn-green{
+  background-color: rgba(169, 202, 65, 1.0);
+}
+.btn-orange{
+  background-color: rgba(243, 111, 33, 1.0);
+}
+
 
 
 
