@@ -1516,15 +1516,17 @@ img {
 .main-nav ul li {
   float: left;
 }
-.main-nav ul li.current a {
+.main-nav ul li.current a,
+.main-nav ul li.current-hover a {
   color: #ed1c24;
 }
 .main-nav ul li a {
   padding: 10px 20px;
   color: #663a2a;
 }
-.main-nav ul li a:hover {
-  color: rgba(237, 28, 36, 0.8);
+.main-nav ul li a:hover,
+.main-nav ul li a:focus {
+  color: #ed1c24;
   text-decoration: none;
 }
 .main-nav:after {
@@ -1532,6 +1534,9 @@ img {
   display: table;
   width: 100%;
   clear: both;
+}
+.main-header {
+  position: relative;
 }
 .main-header-width {
   padding: 23px 25px;
@@ -1630,6 +1635,205 @@ img {
 }
 .dropdown-language.open .dropdown-language-content {
   display: block;
+}
+.products-menu {
+  position: absolute;
+  top: 100%;
+  display: none;
+  left: 0;
+  background: #fff;
+  width: 100%;
+  border-top: 1px solid #eae8e2;
+  z-index: 2;
+  font-size: 16px;
+  font-family: "UniNeue";
+  font-weight: 400;
+  padding-bottom: 15px;
+}
+.products-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.products-menu p {
+  margin: 0;
+}
+.products-menu a:hover,
+.products-menu a:focus {
+  color: #ed1c24;
+  text-decoration: none;
+}
+.product-menu-item {
+  text-align: center;
+}
+.products-width {
+  max-width: 950px;
+  margin: auto;
+}
+.img-product-menu {
+  margin: 7px 0;
+  height: 87px;
+}
+.img-product-menu img {
+  margin: auto;
+}
+.highlight {
+  padding-top: 20px;
+  padding-left: 24px;
+}
+.highlight p {
+  margin: 0 0 9px 0;
+}
+.list-style-color li {
+  padding-left: 20px;
+  padding-bottom: 6px;
+  position: relative;
+}
+.list-style-color li:after {
+  content: " ";
+  display: block;
+  height: 11px;
+  width: 11px;
+  border: 2px solid #ed2129;
+  position: absolute;
+  border-radius: 100%;
+  left: 0;
+  top: 3px;
+}
+.list-style-color li:nth-child(2):after {
+  border-color: #21c0df;
+}
+.list-style-color li:nth-child(3):after {
+  border-color: #a9ca41;
+}
+.menu-button {
+  display: none;
+}
+.menu-mobile {
+  display: none;
+}
+@media (max-width: 991px) {
+  .main-header-width {
+    padding: 23px 0;
+  }
+  .main-nav ul li a {
+    padding: 10px;
+  }
+}
+@media (max-width: 767px) {
+  .main-nav {
+    display: none;
+  }
+  .dropdown-language {
+    display: none;
+  }
+  .sign-in-link {
+    display: none;
+  }
+  .main-header-width {
+    height: 60px;
+  }
+  .cart-link {
+    margin: -17px 9px -11px 22px;
+    font-size: 22px;
+  }
+  .logo {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 120px;
+    margin-left: -60px;
+    margin-top: 16px;
+  }
+  .menu-button {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 60px;
+    padding: 17px 15px 0;
+    cursor: pointer;
+  }
+  .menu-button i {
+    background: #663a2a;
+    display: block;
+    height: 1px;
+    margin: 5px 0;
+    width: 25px;
+  }
+  .main-wrap {
+    overflow: hidden;
+  }
+  .menu-mobile {
+    position: absolute;
+    right: 100%;
+    background: #eae6e0;
+    top: 0;
+    display: none;
+    font-family: 'UniNeue';
+    font-weight: 400;
+    width: 266px;
+  }
+  .menu-mobile-open .wrapper {
+    position: relative;
+    margin-left: 266px;
+    width: 100%;
+  }
+  .menu-mobile-open .menu-button {
+    -ms-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+  }
+  .menu-mobile-open .menu-mobile {
+    display: block;
+  }
+  .menu-mobile-top {
+    background: #663a2a;
+    height: 60px;
+    font-size: 16px;
+    color: #e2dace;
+    text-transform: uppercase;
+    padding: 20px 15px;
+  }
+  .menu-mobile-content {
+    padding: 0 15px;
+  }
+  .menu-mobile-content h6 {
+    color: #9c8e89;
+    font-size: 13px;
+    margin: 0;
+    font-family: 'UniNeue';
+    font-weight: 400;
+    margin: 18px 0 15px;
+  }
+  .menu-mobile-link {
+    margin-bottom: 26px;
+    font-size: 16px;
+  }
+  .line-mobile {
+    height: 1px;
+    background: #c7b8af;
+    margin: -8px -15px 18px;
+  }
+  .menu-mobile-dropdown {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #663a2a;
+    text-transform: uppercase;
+    padding: 20px 15px;
+    color: #e2dacf;
+    z-index: 2;
+    font-size: 16px;
+  }
+  .menu-mobile-dropdown .active {
+    color: #ffffff;
+  }
+  .menu-mobile-dropdown a {
+    display: block;
+    margin-bottom: 25px;
+  }
 }
 .main-footer {
   background: #663a2a;
